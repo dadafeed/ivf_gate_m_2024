@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/* CSS reset */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+address, big, cite, code, del, dfn, em, font, img, ins,
+q, s, samp, small, strike, strong, sub, sup, tt, var, b,
+u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: none 0;}
+caption {text-indent:-10000px;}
+html { font-size: 10px;     
+    -webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+}
+html, body {margin: 0; padding: 0; width: 100%; height: 100%;}
+body {background-color:#fff; color:#111; font-weight: 400; font-family:'NaverNanumSquareNeo', sans-serif; position:relative; }
+input, button, textarea {font-family: "SUIT",sans-serif,'NanumGothic'; font-size:1.2rem; color:#000;}
+h1, h2, h3, h4, h5, h6 {letter-spacing: 0; font-weight:normal;}
+img, fieldset, iframe {border:0 none;}
+table {border-collapse: collapse;}
+select, textarea {font-family: "SUIT",sans-serif,'NanumGothic'; border: 1px solid #B7B6B6; background: #FFFFFF; color: #7c7c7c; font-size: 12px; font-size: 1.2rem; vertical-align: middle;}
+textarea {overflow:auto;}
+select, input, img, li {vertical-align: middle; text-align:inherit;}
+address, caption, cite, code, dfn, em, strong, th, var {font-style : normal; font-weight : 900;}
+ul, li, ol {list-style-type: none;}
+legend,  caption {display: none;}
+hr {border-collapse:collapse; margin: 0; border: none;}
+a:link, a:visited {text-decoration:none; color:inherit;}
+a:hover {text-decoration:none;}
+input[type="button"] {-webkit-appearance: none;}
+i {line-height: 0.8em !important;}  /* 아이콘 vertical middle 위해 */
+
+a{ text-decoration:none; color:#424852; }
+.wrap{height:auto;min-height:100%;}
+.mw_750{position:relative;margin:0 auto;max-width:750px;width:100%;box-sizing:border-box;}
+
+
+/* header */
+#header{width:100%;height:90px;}
+#header .logo{margin:0 auto;padding-top:27px;width:403px;height:36px;}
+#header .logo a{display:block;width:100%;height:100%;}
+#header .logo a img{display:block;width:100%;}
+
+/* footer */
+#footer{padding-bottom:4rem;width:100%;text-align:center;}
+#footer .copyright{font-size:1.2rem;color:#af9ca2;letter-spacing:-0.2rem;}
